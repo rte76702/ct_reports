@@ -29,7 +29,7 @@ def execute(filters=None):
 	show_cust = filters.get('show_customers')
 	group_by = '`tabSales Invoice Item`.item_code'
 
-	filters = {'company': company}
+	filters = {'company': company,'docstatus':1}
 	if paid_only:
 		filters['outstanding_amount'] = 0
 	if show_cust:
