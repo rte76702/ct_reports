@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include ct_reports *.css
+recursive-include ct_reports *.csv
+recursive-include ct_reports *.html
+recursive-include ct_reports *.ico
+recursive-include ct_reports *.js
+recursive-include ct_reports *.json
+recursive-include ct_reports *.md
+recursive-include ct_reports *.png
+recursive-include ct_reports *.py
+recursive-include ct_reports *.svg
+recursive-include ct_reports *.txt
+recursive-exclude ct_reports *.pyc
